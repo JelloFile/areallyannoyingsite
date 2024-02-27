@@ -8,6 +8,7 @@
 
 //Main Functions
 document.onkeypress = function (e) {
+     e = e || window.event;
  annoy()
 };
 function annoy(){
