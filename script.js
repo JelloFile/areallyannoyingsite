@@ -7,14 +7,17 @@
 
 
 //Main Functions
-
+document.onkeypress = function (e) {
+ annoy()
+};
 function annoy(){
-/* function at line 18 */ cursorHide();
-/* function at line 22*/ fillHistory();
+/* function at line 18 */ 
+/* function at line 22*/ 
+ console.log("Operation Fully Done!")
 
 };
 
-//Sub-Functions 
+//Sub-Functions ---
 function cursorHide(){
 // hides the cursor. 
  document.getElementById("html").style = 'cursor:none';
