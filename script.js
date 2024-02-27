@@ -9,11 +9,11 @@
 //Main Functions
 document.onkeypress = function (e) {
      e = e || window.event;
- annoy()
+ annoy();
 };
 function annoy(){
-/* function at line 18 */ 
-/* function at line 22*/ 
+/* function at line 18 */ cursorHide();
+/* function at line 22*/ fillHistory();
  console.log("Operation Fully Done!")
 
 };
