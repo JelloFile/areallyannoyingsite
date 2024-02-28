@@ -42,6 +42,6 @@ fun fact, this command fills 500 pages in 15 seconds! */
 }
 function shiftPages(){
      //Fun fact, this is used to shift pages. nOTHing speCial heRe
-page1.style.display = "none"
-     page2.style.display = "none"
+document.getElementById("container").style.display = "none"
+     document.getElementById("memescontainer").style.display = "none"
 }
