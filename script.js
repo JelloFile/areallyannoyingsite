@@ -4,7 +4,11 @@
 //Declaring all variables
 var page1 = document.getElementById("container");
 var page2 = document.getElementById("memecontainer")
-
+var images_nodownload = {
+     /*probably will never use meme_start*/
+meme_start: "areallyannoyingsite/assets/nd/meme_start.png", 
+meme1: "areallyannoyingsite/assets/nd/meme1.png"
+}
 
 
 //Main Functions
