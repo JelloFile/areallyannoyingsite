@@ -2,7 +2,8 @@
 
 
 //Declaring all variables
-
+var page1 = document.getElementById("container");
+var page2 = document.getElementById("memecontainer")
 
 
 
@@ -12,8 +13,10 @@ document.onkeypress = function (e) {
  annoy();
 };
 function annoy(){
-/* function at line 18 */ cursorHide();
-/* function at line 22*/ fillHistory();
+cursorHide();
+fillHistory();
+     shiftPages();
+     
  console.log("Operation Fully Done!")
 
 };
@@ -32,4 +35,9 @@ setTimeout(fillHistory,20);
   /*we add 20 here because we don't want to lag out the user computer TOO much 
 
 fun fact, this command fills 500 pages in 15 seconds! */
+}
+function shiftPages(){
+     //Fun fact, this is used to shift pages. nOTHing speCial heRe
+page1.style.display = "none"
+     page2.style.display = "none"
 }
