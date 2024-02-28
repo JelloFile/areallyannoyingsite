@@ -3,7 +3,7 @@
 
 //Declaring all variables
 var page1 = document.getElementById("container");
-var page2 = document.getElementById("memecontainer")
+var page2 = document.getElementById("memescontainer")
 var images_nodownload = {
      /*probably will never use meme_start*/
 meme_start: "areallyannoyingsite/assets/nd/meme_start.png", 
