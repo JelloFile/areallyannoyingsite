@@ -17,8 +17,8 @@ document.onkeypress = function (e) {
  annoy();
 };
 function annoy(){
-cursorHide();
-fillHistory();
+//cursorHide();
+//fillHistory();
      shiftPages();
      
  console.log("Operation Fully Done!")
